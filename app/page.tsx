@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   // Change this to your launch date
-  const launchDate = new Date("2026-08-31T00:00:00").getTime();
+  const launchDate = new Date("2026-10-10T00:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: "00",
